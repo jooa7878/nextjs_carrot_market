@@ -97,7 +97,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <form className="flex flex-col space-y-2 p-5">
+        {/* <form className="flex flex-col space-y-2 p-5">
           <input
             type="text"
             required
@@ -111,9 +111,9 @@ const Home: NextPage = () => {
             good
           </span>
           <input type="submit" value="login" className="bg-white" />
-        </form>
+        </form> */}
       </div>
-      <div className="flex flex-col space-y-2 p-5">
+      {/* <div className="flex flex-col space-y-2 p-5">
         <input
           type="file"
           className="file:transition-colors file:cursor-pointer file:hover:text-purple-400 file:hover:bg-white file:hover:border-purple-400 file:hover:border-2 file:border-0 file:rounded-xl file:p-1 file:text-white file:bg-purple-400"
@@ -124,7 +124,7 @@ const Home: NextPage = () => {
           repudiandae fugiat vel hic iusto temporibus quisquam repellat
           distinctio voluptates magnam.
         </p>
-      </div>
+      </div> */}
     </>
   );
 };
